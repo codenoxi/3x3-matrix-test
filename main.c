@@ -25,23 +25,24 @@ int8_t modus;
 int16_t about_ten_ms = 0;
 int8_t cnter = 0;
 int8_t matrix [3][3] = {	{1,1,1},
-						 	{1,1,1},
-							{1,1,1}	 
+				{1,1,1},
+				{1,1,1}	 
 						};
 
+// Schoenheitsfehler wurden behoben
 
 int8_t matrix_movie [number_of_frames][3][3] =	{{	{0,0,0},
-						 							{0,1,0},
-													{0,0,0}	},
+						 	{0,1,0},
+							{0,0,0}	},
 									
-												{	{0,1,0},
-						 							{1,0,1},
-													{0,1,0}	},
+						{	{0,1,0},
+							{1,0,1},
+							{0,1,0}	},
 									
-												{	{1,1,1},
-						 							{1,0,1},
-													{1,1,1}	}	 
-												};	
+						{	{1,1,1},
+							{1,0,1},
+							{1,1,1}	}	 
+								};	
 
 
 /*int8_t matrix_movie [number_of_frames][3][3] = {{	{0,1,1},
